@@ -3,6 +3,8 @@
 #20 March 2021
 #Correlation Coefficient Analysis
 
+#https://realpython.com/numpy-scipy-pandas-correlation-python/
+
 import numpy as np
 import pandas as pd
 
@@ -29,8 +31,7 @@ except ImportError:
     import Image
 
 #Database is available at davidtsanghw.github.io
-wdir = '\\Python\\data\\'
-afile = wdir + 'fin.db'
+afile =  'fin.db'
 
 con = sqlite3.connect(afile)
 cursor = con.cursor()
